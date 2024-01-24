@@ -1,0 +1,698 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+}
+.container{
+    /* width: 70%; */
+    height: 100vh;
+    /* justify-self: center; */
+    margin-left: 220px;
+    margin-right: 220px;
+    /* background-color: red; */
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+}
+.navbar img{
+    width: 200px;
+}
+.navbar p{
+    margin-left: 50px;
+    font-size: 35px;
+}
+.minihome{
+    width: 50%;
+    height: 63vh;
+    background-color: rgb(241, 241, 241);
+    /* position: absolute; */
+}
+.headingofform{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+#formheading{
+    text-align:left;
+    margin-top: 50px;
+    font-size: 18px;
+    /* margin-right: 10px; */
+    margin-left: 35px;
+    width: 80%;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form #inputbox{
+    width: 40%;
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 0 3.8rem 0 1rem;
+    cursor: text;
+    margin-bottom: 10px;
+}
+#inputbox #label{
+    color:#6c757d ;
+    /* font-size: 10px; */
+}
+.form #form_bottom_para{
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 25px;
+}
+.form button{
+    justify-content: center;
+    width: 85%;
+    margin-left: 30px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #0b5cab;
+    cursor: pointer;
+    margin-top: 30px;
+    color: white;
+}
+.image_and_list{
+    width: 50%;
+    height: 70vh;
+    /* background-color: red; */
+    /* margin-left: 54%; */
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.home{
+    width: 100%;
+    display: flex;
+    height: 70vh;
+}
+/* .form #inputbox:hover{
+    border-color: rgb(34, 180, 180);
+} */
+.firstcheck {
+    display: flex;
+    margin-top: 16px;
+}
+.secondcheck {
+    display: flex;
+    margin-top: 6px;
+}
+.thirdcheck {
+    display: flex;
+}
+.checklist #greencheck{
+    width: 30px;
+}
+.checklist {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.checklist #desktop{
+    width: 100%;
+}
+
+.secondhomecontainer .heading p{
+    font-size: 40px;
+    font-family: alesforceSansLight,Helvetica,Arial,sans-serif!important;
+    font-weight: 400;
+    font-size: 42px!important;
+    line-height: 50.4px!important;
+    line-height: 52px!important;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.secondhomecontainer{
+    /* width: 70%; */
+    height: 100vh;
+    margin-left: 220px;
+    margin-right: 220px;
+    
+}
+.middle_of_secondhomecontainer{
+    width: 100%;
+    display: flex;
+    height: 70vh;
+}
+.firstmiddle{
+    width: 50%;
+    height: 80vh;
+    /* background-color: red; */
+}
+.firstmiddle button{
+    background-color: #0b5cab;
+    color: white;
+    width: 170px;
+    height:40px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.secondmiddle{
+    width: 50%;
+    height: 80vh;
+    /* background-color: black; */
+}
+.firstmiddle p{
+    font-size: 25px;
+}
+.ul_list{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.ul_list li{
+    margin-top: 10px;
+}
+.secondlist{
+    margin-top: 80px;
+}
+.thirdlist{
+    margin-top: 80px;
+}
+.thirdhomecontainer{
+    height: 50vh;
+    margin-left: 220px;
+    margin-right: 220px;
+    /* background-color: red; */
+}
+.first_of_thirdcontainer p{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.boxes{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    height: 30vh;
+}
+.firstbox{
+    width: 25%;
+    /* background-color: #428eec; */
+    background-color: rgb(3, 158, 210);
+}
+.firstbox #percentage{
+    text-align: center;
+    font-size:90px;
+    color: white;
+}
+.firstbox p span{
+    font-size: 30px;
+}
+.firstbox #sales{
+    color: white;
+    font-size:15px;
+    text-align-last: center;
+}
+.secondbox #percentage{
+    text-align: center;
+    font-size:90px;
+    color: rgb(0, 12, 74);
+}
+.secondbox p span{
+    font-size: 30px;
+}
+.secondbox #sales{
+    color: rgb(0, 12, 74);
+    font-size:15px;
+    text-align-last: center;
+}
+.thirdbox #percentage{
+    text-align: center;
+    font-size:90px;
+    color: rgb(0, 12, 74);
+}
+.thirdbox p span{
+    font-size: 30px;
+}
+.thirdbox #sales{
+    color: rgb(0, 12, 74);
+    font-size:15px;
+    text-align-last: center;
+}
+.fourthbox #percentage{
+    text-align: center;
+    font-size:90px;
+    color: rgb(0, 12, 74);
+}
+.fourthbox p span{
+    font-size: 30px;
+}
+.fourthbox #sales{
+    color: rgb(0, 12, 74);
+    font-size:15px;
+    text-align-last: center;
+}
+.secondbox{
+    width: 25%;
+    background-color: rgb(206, 206, 206);
+}
+.thirdbox{
+    width: 25%;
+    background-color: rgb(228, 209, 209);
+}
+.fourthbox{
+    width: 25%;
+    background-color: whitesmoke;
+}
+.fourthhomecontainer{
+    height: 50vh;
+    margin-left: 220px;
+    margin-right: 220px;
+    display: flex;
+    /* background-color: red; */
+}
+#heading_of_fourth{
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.fourthhomecontainer .first_of_fourth{
+    width: 50%;
+    /* background-color: red; */
+    height: 50vh;
+}
+.fourthhomecontainer .second_of_fourth{
+    width: 50%;
+    /* background-color: red; */
+    height: 50vh;
+}
+.second_of_fourth #firstpara{
+    font-size: 25px;
+}
+.second_of_fourth #secondpara{
+    font-size: 15px;
+    margin-top: 20px;
+    color: darkblue;
+}
+.second_of_fourth button{
+    background-color: #0b5cab;
+    color: white;
+    width: 170px;
+    height:40px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bluebox{
+    /* width: 100%; */
+    height: 20vh;
+    margin-left: 220px;
+    margin-right: 220px;
+    background-color: rgb(3, 158, 210);
+}
+.bluebox #heading{
+    color: white;
+    font-size: 30px;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.bluebox #expert{
+    color: white;
+    font-size: 20px;
+    padding-left:30px;
+    /* padding-top:30px; */
+    padding-bottom:30px;
+}
+.secondlast{
+    /* width: 100%; */
+    height: 20vh;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding-top: 30px;
+    display: flex;
+    /* background-color: rgb(3, 158, 210); */
+}
+.secondlast .first_of_secondlast{
+    width: 70%;
+    /* background-color: red; */
+}
+.secondlast .second_of_secondlast{
+    width: 30%;
+    /* background-color: black; */
+}
+.first_of_secondlast #secondlastpara{
+    font-size: 10px;
+}
+.lastrow{
+    /* width: 100%; */
+    height: 20vh;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding-top: 30px;
+    display: flex;
+    /* background-color: rgb(3, 158, 210); */
+    background-color: #0b5cab;
+}
+.lastrow .first_of_lastrow{
+    width: 20%;
+}
+.lastrow .second_of_lastrow{
+    width: 60%;
+}
+.lastrow .third_of_lastrow{
+    width: 20%;
+}
+.lastrow button{
+background-color: #0b5cab;
+color: white;
+width: 170px;
+height:40px;
+font-size: 20px;
+margin-top: 30px;
+border-radius: 5px;
+cursor: pointer;
+background-color: transparent;
+margin-left: 20px;
+outline-color: white;
+border-color: wite;
+}
+.second_of_lastrow p{
+    font-size: 12px;
+    color: white;
+}
+.second_of_lastrow p span{
+    font-size: 12px;
+    color: rgb(3, 158, 210);
+}
+.second_of_lastrow .redirect{
+    display: flex;
+}
+.redirect a{
+    padding-left: 20px;
+    padding: 20px;
+    /* text-decoration: none; */
+    color:rgb(3, 158, 210);
+}
+.redirect a:hover{
+    color: white;
+}
+.third_of_lastrow img{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+.third_of_lastrow button{
+background-color: #0b5cab;
+color: white;
+width: 170px;
+height:40px;
+font-size: 20px;
+margin-top: 80px;
+border-radius: 5px;
+cursor: pointer;
+background-color: transparent;
+margin-left: 20px;
+outline-color: white;
+border-color: wite;
+}
+.third_of_lastrow button:hover{
+    background-color: rgb(3, 158, 210);
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar img {
+        width: 200px;
+        margin-left: 25px;
+    }
+    .navbar p {
+        margin-left: 25px;
+        font-size: 25px;
+        margin-top: 25px;
+        color: rgb(146, 145, 145);
+    }
+    .home {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 245vh;
+    }
+    .minihome {
+        width: 101%;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        background-color: rgb(241, 241, 241);
+        margin-top: 30px;
+        height: 120vh;
+    }
+    .container {
+        width: 150%;
+        height: 100vh;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .image_and_list {
+        width: 100%;
+        height: 70vh;
+        margin-top: 140px;
+        /* background-color: red; */
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    #question{
+        margin-left: 80px;
+    }
+    .checklist #checklistpara{
+        margin-left: 70px;
+    }
+    .firstcheck {
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    .secondcheck {
+        margin-left: 70px;
+        /* margin-top: 20px; */
+    }
+    .thirdcheck {
+        margin-left: 70px;
+        /* margin-top: 20px; */
+    }
+    .secondhomecontainer {
+        width: 141%;
+        margin-top: 1300px;
+        /* width: 70%; */
+        height: 100vh;
+        margin-left: 0px;
+    }
+    #formheading {
+        text-align: left;
+        margin-top: 50px;
+        font-size: 27px;
+        /* margin-right: 10px; */
+        margin-left: 60px;
+        width: 80%;
+    }
+    .form #inputbox {
+        width: 80%;
+        margin-top: 20px;
+        height: 53px;
+        margin-left: 60px;
+        font-size: 18px;
+        border-radius: 5px;
+        padding: 0 3.8rem 0 1rem;
+        cursor: text;
+        margin-bottom: 10px;
+    }
+    .form #form_bottom_para {
+        font-size: 17px;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 25px;
+        width: 80%;
+    }
+    .form button {
+        justify-content: center;
+        width: 80%;
+        margin-left: 60px;
+        height: 50px;
+        font-size: 26px;
+        background-color: #0b5cab;
+        cursor: pointer;
+        margin-top: 30px;
+        color: white;
+    }
+    .checklist #desktop {
+        width: 100%;
+    }
+    .secondhomecontainer .heading p {
+        font-size: 40px;
+        font-family: alesforceSansLight,Helvetica,Arial,sans-serif!important;
+        margin-left: 20px;
+        color: #989595;
+        font-weight: 400;
+        font-size: 31px!important;
+        line-height: 50.4px!important;
+        line-height: 52px!important;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .middle_of_secondhomecontainer {
+        width: 100%;
+        display: flex;
+        height: 70vh;
+        margin-left: 40px;
+        flex-direction: column;
+    }
+    .firstmiddle {
+        width: 80%;
+        margin-left: 20px;
+        height: 80vh;
+        /* background-color: red; */
+    }
+    .secondmiddle #mobile{
+        margin-top: 100px;
+        margin-left: 70px;
+    }
+    .thirdhomecontainer {
+        width: 100%;
+        height: 50vh;
+        margin-top: 782px;
+        margin-left: 50px;
+        /* background-color: red; */
+    }
+    .first_of_thirdcontainer p {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .boxes {
+        margin-top: 50px;
+        width: 115%;
+        display: flex;
+        flex-direction: column;
+        height: 160vh;
+
+    }
+    .firstbox{
+        width: 100%;
+        height: 300px;
+    }
+    .firstbox #percentage {
+        margin-top: 66px;
+        text-align: center;
+        font-size: 110px;
+        /* color: white; */
+    }
+    .firstbox #sales{
+        font-size: 25px;
+    }
+    .secondbox{
+        width: 100%;
+        height: 300px;
+    }
+    .secondbox #percentage {
+        margin-top: 66px;
+        text-align: center;
+        font-size: 110px;
+        /* color: white; */
+    }
+    .secondbox #sales{
+        font-size: 25px;
+    }
+    
+    .thirdbox{
+        width: 100%;
+        height: 300px;
+    }
+    .thirdbox #percentage {
+        margin-top: 66px;
+        text-align: center;
+        font-size: 110px;
+        /* color: white; */
+    }
+    .thirdbox #sales{
+        font-size: 25px;
+    }
+    .fourthbox{
+        height: 300px;
+        width: 100%;
+    }
+    .fourthbox #percentage {
+        margin-top: 66px;
+        text-align: center;
+        font-size: 110px;
+        /* color: black; */
+    }
+    .fourthbox #sales{
+        font-size: 25px;
+        /* color: black; */
+    }
+
+    #heading_of_fourth {
+        margin-top: 900px;
+        font-size: 25px;
+        margin-bottom: 30px;
+        width: 100%;
+        margin-right: 0px;
+        margin-left:100px;
+    }
+    .fourthhomecontainer {
+        height: 50vh;
+        display: flex;
+        margin-right: 0;
+        margin-left: 0;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    .first_of_fourth img {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 12px;
+        width: 265%;
+    }
+    .fourthhomecontainer .second_of_fourth {
+        width: 129%;
+        margin-left: 40px;
+    }
+    .bluebox {
+        margin-top: 213px;
+        /* width: 100%; */
+        width: 141%;
+        height: 20vh;
+        margin-left: 30px;
+        margin-right: 0px;
+        background-color: rgb(3, 158, 210);
+    }
+    .secondlast {
+        /* width: 100%; */
+        width: 130%;
+        height: 20vh;
+        margin-left: 62px;
+        margin-right: 220px;
+        padding-top: 30px;
+        display: flex;
+        /* background-color: rgb(3, 158, 210); */
+    }
+    .first_of_secondlast #secondlastpara {
+        font-size: 13px;
+    }
+    .lastrow{
+        width: 145%;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .lastrow button{
+        display: none;
+    }
+  }
